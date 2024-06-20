@@ -7,12 +7,11 @@ use Illuminate\Http\Request;
 class ProductController extends Controller
 {
     public function index() {
-        $booksData = array(
-            ['title1' => 'I Feel Bad About My Neck',
-            'author1' => 'Nora Ephron',
-            'year' => '2006'
-            ]
-        );
-        return view("books", $booksData);
+        $books = [
+            ['title' => 'I Feel About My Neck'],
+            ['title' => 'Test2']
+        ];
+
+        return view('books', compact('books'));
     }
 }
