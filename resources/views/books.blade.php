@@ -12,10 +12,9 @@
 <script src="https://cdn.tailwindcss.com"></script>
 
 
-<div class="flex h-lvh w-full items-center justify-center">
 
 
-<div class="relative overflow-x-auto">
+<div class="max-w-screen-md m-auto flex overflow-x-auto h-lvh items-center">
     <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
         <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
@@ -47,4 +46,4 @@
         </tbody>
     </table>
 </div>
-</div>
+
